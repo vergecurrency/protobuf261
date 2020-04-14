@@ -95,7 +95,7 @@ class Protobuf261 < Formula
     end
   end
 
-  def caveats; <<-EOS.undent
+  def caveats; <<-EOS
     Editor support and examples have been installed to:
       #{doc}
     EOS
@@ -103,7 +103,7 @@ class Protobuf261 < Formula
 
   test do
     testdata =
-      <<-EOS.undent
+      <<-EOS
         package test;
         message TestCase {
           required string name = 4;
